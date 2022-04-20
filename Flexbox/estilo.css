@@ -1,0 +1,67 @@
+.container {
+    max-width: 400px;
+    border:  2px solid #505050;
+    margin: 0;
+    display: flex;
+}
+
+.item {
+    background-color: blueviolet;
+    margin: 5px;
+    text-align: center;
+    color: white;
+    
+}
+
+.flex-start {
+    justify-content: flex-start;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.center {
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.column {
+    flex-direction: column;
+    min-height: 200px;
+}
+
+.flex {
+    flex: 1;
+}
+
+.center-align {
+    align-items: center;
+}
+
+.stretch {
+    align-items: stretch;
+}
+
+.start {
+    align-items: start;
+}
+
+.end {
+    align-items: end;
+}
+
+.baseline {
+    align-items: baseline;
+}
+
+.column {
+    flex-direction: column;
+}
